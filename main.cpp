@@ -12,11 +12,6 @@ bool isPrime(int x)
     return true;
 }
 
-bool isEven(int x)
-{
-    return !(x % 2);
-}
-
 int main()
 {
     cout << isPrime(7) << '\n';
